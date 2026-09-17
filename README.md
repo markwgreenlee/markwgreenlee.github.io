@@ -40,12 +40,43 @@ scientist and co-leader, Multisensory Research Group (since October 2022).
 
 ## Projects
 
-- **[VSS 2026 Scheduler](https://github.com/markwgreenlee/vss-2026-scheduler)** — a Progressive Web
-  App for searching and organizing your Vision Sciences Society 2026 conference schedule
-  (1,191 presentations, full-text search, calendar export, offline support).
+### Conference schedule organizers
+
+Three Progressive Web Apps sharing one codebase: full-text search over the programme, day and
+presentation-type filters, a personal schedule, calendar export, and offline use after first load.
+
+- **[ECVP 2026 Schedule Organizer](https://github.com/markwgreenlee/ecvp-2026-scheduler)** —
+  European Conference on Visual Perception 2026, Bournemouth, 23–27 August.
+  Live: [markwgreenlee.github.io/ecvp-2026-scheduler](https://markwgreenlee.github.io/ecvp-2026-scheduler)
+- **[IMRF 2026 Schedule Organizer](https://github.com/markwgreenlee/imrf-2026-scheduler)** —
+  International Multisensory Research Forum 2026, Genova, 24–27 June (296 presentations, with a
+  "what's on now" view).
+  Live: [markwgreenlee.github.io/imrf-2026-scheduler](https://markwgreenlee.github.io/imrf-2026-scheduler)
+- **[VSS 2026 Schedule Organizer](https://github.com/markwgreenlee/vss-2026-scheduler)** —
+  Vision Sciences Society 2026, St. Pete Beach, 15–19 May (1,191 presentations).
   Live: [markwgreenlee.github.io/vss-2026-scheduler](https://markwgreenlee.github.io/vss-2026-scheduler)
+
+### Experiments and teaching demos
+
+- **[Online RDK experiment](https://github.com/markwgreenlee/online-rdk-experiment)** — a
+  browser-based random-dot motion direction-discrimination task with a dual-task attentional-load
+  manipulation, built with jsPsych 7 and a custom HTML5-canvas RDK plugin for online data
+  collection, with data written to the OSF.
+  Live: [markwgreenlee.github.io/online-rdk-experiment](https://markwgreenlee.github.io/online-rdk-experiment)
+- **[Fourier gratings](https://github.com/markwgreenlee/fourier-gratings)** — an interactive demo
+  showing how a square-wave grating is composed of a fundamental sinusoid plus odd harmonics; a
+  single self-contained HTML file for vision-science teaching.
+  Live: [markwgreenlee.github.io/fourier-gratings](https://markwgreenlee.github.io/fourier-gratings)
+- **[Landolt C demo](https://github.com/markwgreenlee/landolt-c-demo)** — a PsychoPy demo of
+  Landolt C gap discrimination in the near periphery, with a Posner cue and a backward mask.
 - **[AI-assisted limbus eye tracking](https://github.com/mark-shovman/Greenlee_etal_2026_data)** —
   data and analysis for AI-assisted limbus-based eye tracking (Greenlee et al., 2026).
+
+### Tools
+
+- **[MLX Web Chat](https://github.com/markwgreenlee/mlx-web-chat)** — a local web chat interface
+  for MLX language models on Apple Silicon: a React + Vite frontend over the OpenAI-compatible
+  streaming API of `mlx_lm.server`, with no custom backend.
 
 ## Academic profiles
 
